@@ -1,9 +1,13 @@
-I originated and invented the hollow square model for factorization intending to derive PI and compress with it too and more, like, it'd help FFT etc, if it scales...
+DOESNT WORK BUT SOMEHOW DOES ON SOME NUMBERS
+
+TRYING TO FIGURE IT OUT.
+
+PUT IT HERE ANYWAY WITH ALL THE GLAZE:I originated and invented the hollow square model for factorization intending to derive PI and compress with it too and more, like, it'd help FFT etc, if it scales...
 Pardon the absolutely toy nature of this horrid example code, it was meant to show the formula more than be a real program... Ahhem.
 We'll be using MPFR for the real runtime if I ever get end up putting it in here.
 
 
-// PROGRAM: prove direct factoring ~O(1) formula works for very small numbers and this imho says it scales to any sized number with mpfr ;
+// PROGRAM: prove SOME NUMBERS AS direct factoring ~O(1) formula works for very small numbers and this imho says it scales to any sized number with mpfr ;
 // BASED ON: The Rottura Algorithms, #3, Theorem: all odd composites are hollow squares -> factoring by ((2 * Q) - 1) per geometry
 // FORMULA: [ (2*sqrt(N/PI))+sqrt(Z^2-N) ] is a factor case bifurcated true for either rounding up or down to integer of [2*sqrt(N/PI)] portion.
 // PRE-PRE-ALPHA: tested with 51,95,187,2059 and works with those, chosen because their geometries are radically difference and 52's unbalanced;
