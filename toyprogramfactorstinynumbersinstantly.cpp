@@ -1,8 +1,12 @@
-//  ---------------- hiddeous toy program but its purpose is just to show the idea which works on tiny test cases & should scale
+//DOES NOT WORK //  ---------------- hiddeous toy program but its purpose is just to show the idea which works on tiny test cases & should scale
+
+
+/// DOES NOT WORK, INCLUDED HERE TO STORE FORMULA I'M LOOKING AT /////
+
 // JUST TO EXPRESS THE FORMULA I INVENTED
 ////////// INFERS a solution to PI is a solution to factoring is a solution for compressing uncompressible data maybe too.
 
-// PROGRAM: prove direct factoring ~O(1) formula works for very small numbers and this imho says it scales to any sized number with mpfr ;
+// PROGRAM: prove direct SOME NUMBERS HAVE factoring ~O(1) formula works for very small numbers and this imho says it scales to any sized number with mpfr ;
 // BASED ON: The Rottura Algorithms, #3, Theorem: all odd composites are hollow squares -> factoring by ((2 * Q) - 1) per geometry
 // FORMULA: [ (2*sqrt(N/PI))+sqrt(Z^2-N) ] is a factor case bifurcated true for either rounding up or down to integer of [2*sqrt(N/PI)] portion.
 // PRE-PRE-ALPHA: tested with 51,95,187,2059 and works with those, chosen because their geometries are radically difference and 52's unbalanced;
